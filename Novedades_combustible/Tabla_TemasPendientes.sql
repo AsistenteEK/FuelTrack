@@ -1,0 +1,6 @@
+CREATE TABLE temas_pendientes(
+Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY
+Concept TEXT,
+Committee_Date DATE DEFAULT CURRENT_DATE,
+Status CHAR(10)
+);
